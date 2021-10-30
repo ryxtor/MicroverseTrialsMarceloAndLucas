@@ -1,0 +1,45 @@
+#body {
+    
+  margin: 0;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    float: right;
+    height: 60px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+li a {
+   display: block;
+    width: 1000px;
+    height: 60px;
+    padding-left: auto;
+}
+
+#header {
+    float: right;
+    position: fixed;
+    top: 0;
+    text-align: right;
+    
+}
+
+#nav-bar {
+    
+    display: flex;
+    width: 1000px;
+    background-color: aqua;
+    list-style: inside;
+    
+}
+
