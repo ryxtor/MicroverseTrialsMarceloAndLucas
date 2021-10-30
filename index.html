@@ -6,31 +6,34 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
+  <header id="header"> 
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img"> 
+
+    </img> 
+    <nav id="nav-bar">
+      <ul class="header-ul">
+        <li>
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#how-it-works">How it works</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <body id="body">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <header id="header"> 
-      <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img"> 
-
-      </img> 
-      <nav id="nav-bar">
-        <ul>
-          <li>
-            <a class="nav-link" href="#features">Features</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#how-it-works">How it works</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
     
+    <div class="container">
     <form id="form"  action = "https://www.freecodecamp.com/email-submit" >
-      <input id="email"  type="email" placeholder="Introduce your email here" required></input> 
-      <button id="submit"  > Submit </button> 
+      <input name="email" id="email"  type="email" placeholder="Introduce your email here" required></input> 
+      <input  id="submit" type="submit" >
+      
+    </input> 
      </form>
 
     <section id="features">
@@ -60,7 +63,7 @@
     <section id="pricing"> 
       <div class="price-structure"> <p> Tenor Trombone </p> 
       <h2>$600 </h2>
-      <ul>
+      <ul class="price-ul">
         <li> Lorem Ipsum</li>
         <li> Trombones </li>
       </ul>
@@ -69,7 +72,7 @@
       <div class="price-structure">
         <p> Bass Trombone </p> 
         <h2> $900 </h2>
-        <ul>
+        <ul class="price-ul">
           <li> Lorem Ipsum</li>
           <li> Trombones </li>
         </ul>
@@ -78,7 +81,7 @@
       <div class="price-structure">  
         <p> Valve Trombone </p>
         <h2>$1200</h2>
-        <ul>
+        <ul class="price-ul">
           <li> Lorem Ipsum</li>
           <li> Trombones </li>
         </ul>
@@ -88,7 +91,7 @@
 
       
     </section>
-
+  </div>
     
     
     
