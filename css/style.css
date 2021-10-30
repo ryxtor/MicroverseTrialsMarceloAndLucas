@@ -149,3 +149,46 @@ body {
     margin-right: 25%;
     margin-left: 25%;
 }
+
+.end{
+    
+    background-color: wheat;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    
+    ;
+    
+}
+
+.end ul {
+    list-style-type: none;
+    display: flex ;
+    justify-content: flex-end;
+       background-color: wheat;
+    margin-left:40% ;
+       
+       
+}
+
+
+.end ul li {
+    
+    margin-left: 10px;
+    
+    
+        
+}
+
+.end ul li a {
+   
+   text-decoration: none;  
+}
+
+span{
+        margin-top: 55px;
+        margin-left: -13% ;
+        display: flex;
+        justify-content: flex-end;
+    
+}
