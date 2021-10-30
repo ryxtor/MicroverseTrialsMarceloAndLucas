@@ -59,6 +59,7 @@ body {
 
 .container {
     margin-left: 25%;
+    margin-right: 25%;
 }
 
 
@@ -66,4 +67,18 @@ body {
     header {
       flex-wrap: wrap;
     }
+  }
+
+  #box {
+    background-color: lightyellow;
+    box-shadow: 5px 5px 10px 1px #000;
+
+  }
+
+  #video{
+   
+    height: 300px;
+    width: 95%;
+    margin: 10px ;
+
   }
