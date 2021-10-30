@@ -24,15 +24,16 @@ body {
     height: 60px;
     margin-top: 10px;
     margin-left: 100px;
-    width: 100px;
-    background-color: green;
+    width: 150px;
+    
 }
 
 .header-ul li a {
    display: block;
-    
+    margin-top: 15px;
     height: 60px;
-    background-color: blueviolet;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #header {
@@ -41,10 +42,11 @@ body {
     position: fixed;
     top: 0;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(176, 224, 224);
     padding: 0px 20px 0px 100px;
     justify-content: space-around;
     width: 100%;
+    box-shadow: 5px 5px 15px 1px #000;
     
 }
 
@@ -117,5 +119,20 @@ body {
 
 #submit{
     background-color: tomato;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-left: 20%;
+}
+
+#form {
     
+    margin: 0 25%;
+}
+
+.email-box {
+    background-color: rgb(81, 81, 192);
+    box-shadow: 5px 5px 10px 1px #000;
 }
