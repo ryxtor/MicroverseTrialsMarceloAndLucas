@@ -82,3 +82,30 @@ body {
     margin: 10px ;
 
   }
+
+  #pricing {
+      display:flex;
+      width: 95%;
+      margin-left: 20%;
+      margin-right: 20%;
+
+  }
+
+  .price-structure {
+      padding: 20px;
+      background-color: mediumaquamarine;
+  }
+
+  #box-1, #box-2, #box-3 {
+      border: 5px gray solid;
+  }
+.price-name {
+    background-color: honeydew;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 15px;
+    
+    display: block;
+
+}
